@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cloud inventory: list resources",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/cloud-inventory/main.py",
+      "args": ["list"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Cloud inventory: cost summary",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/cloud-inventory/main.py",
+      "args": ["summary"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

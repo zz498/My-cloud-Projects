@@ -1,0 +1,26 @@
+[
+  {
+    "name": "website-dev",
+    "type": "virtual machine",
+    "environment": "development",
+    "monthly_cost": 18.5
+  },
+  {
+    "name": "orders-api",
+    "type": "container service",
+    "environment": "production",
+    "monthly_cost": 86.0
+  },
+  {
+    "name": "assets-bucket",
+    "type": "object storage",
+    "environment": "production",
+    "monthly_cost": 12.75
+  },
+  {
+    "name": "test-database",
+    "type": "database",
+    "environment": "development",
+    "monthly_cost": 24.0
+  }
+]
